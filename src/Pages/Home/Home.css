@@ -1,0 +1,65 @@
+.home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    background: url('../../Images/image_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.home-content{
+    height: 70%;
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 2rem 4rem;
+}
+
+.home .head{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6vmin;
+    line-height: 42px;  
+    color: #FFFFFF;
+}
+
+.home .sub-head{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF; 
+}
+
+.find-van{
+    background: #FF8C38;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .home-content{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+footer{
+    background: #252525;
+    padding: 1.2rem;
+}
+
+.copy-right{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #AAAAAA;
+}
