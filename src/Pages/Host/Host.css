@@ -1,0 +1,83 @@
+.host {
+  /* border: 1px solid black; */
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.host-nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+  padding: 10px;
+  /* margin-bottom: 1rem; */
+}
+
+.host-vans>h1{
+  padding: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  color: #161616;
+}
+
+.host-nav > a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4d4d4d;
+}
+
+.host-nav > a:hover{
+  color: #161616;
+}
+
+.list-vans{
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.list-vans>li{
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.list-vans>li>a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-vans img{
+  width: 18vw;
+  border-radius: 5px;
+}
+
+.van-info > .name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #161616;
+} 
+
+.van-info > .price{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #4D4D4D;
+  
+} 
+

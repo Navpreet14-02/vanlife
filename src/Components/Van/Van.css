@@ -1,0 +1,68 @@
+.van > a {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0px 0px 5px 1px rgba(224, 215, 224, 1);
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.van img {
+  max-width: 25vw;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.van .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.van .details .name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #161616;
+}
+
+.van .details .price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price .amount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  /* line-height: 32px; */
+  color: #161616;
+}
+
+.price .period {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 32px; */
+  color: #161616;
+}
+
+.van .type {
+  background: #e17654;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 0 10px;
+  color: #ffead0;
+}

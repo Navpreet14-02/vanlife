@@ -1,0 +1,113 @@
+.host-vaninfo-container{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    padding: 20px;
+}
+
+.host-vaninfo{
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px;
+
+}
+
+.info-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.info-head>img{
+    width: 22vw;
+    border-radius: 5px;
+}
+
+.vaninfo-identity{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.vaninfo-identity > .van-type{
+    background: #E17654;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFEAD0;
+    
+}
+
+.vaninfo-identity > .van-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 27px;
+    color: #161616;
+    
+}
+
+.vaninfo-identity > .price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #161616;
+}
+
+.host-vaninfo .host-nav{
+    padding: 0;
+    gap: 40px;
+}
+
+.host-vaninfo .host-nav>a:hover{
+    color:#161616
+}
+
+/* Host van details */
+.hostvan-details > p{
+    margin: 20px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #161616;
+}
+
+.hostvan-details > p>.property{
+    font-weight: 700;
+}
+
+/* Host van Pricing */
+.hostvan-pricing p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 3rem 0;
+}
+
+.hostvan-pricing .amount{
+    color: #161616;
+    font-size: 60px;
+}
+
+.hostvan-pricing .period{
+    font-size: 52px;
+    color: #4D4D4D;
+}
+
+.hostvan-image > img{
+    width: 12vw;
+    border-radius: 5px;
+}

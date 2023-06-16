@@ -1,0 +1,125 @@
+.van-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  margin: auto;
+  padding: 1.5rem 0;
+  gap: 1.5rem;
+}
+
+.van-content {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-start; */
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+
+.back-vans>a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px; 
+  text-decoration-line: underline;
+  color: #201f1d;
+}
+
+.van-content > div{
+  width: 100%;
+  flex: 1;
+
+}
+.van-content .van-img {
+  height: 60vh;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.van-content > .details{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* gap: 3rem; */
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+.van-type {
+  background: #e17654;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffead0;
+  padding: 5px 20px;
+}
+
+.van-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  color: #161616;
+}
+
+.van-content .price .amount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  /* line-height: 32px; */
+  color: #161616;
+}
+
+.van-content .price .period {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 32px; */
+  color: #161616;
+}
+
+.van-desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+
+.rent-van{
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    line-height: 32px;
+    background: #FF8C38;
+    color: #FFFFFF;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+  .van-details{
+    width: 75%;
+  }
+  .van-content{
+    flex-direction: column;
+  }
+  .van-content>*{
+    gap: 1rem;
+  }
+  
+}
